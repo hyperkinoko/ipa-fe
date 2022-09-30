@@ -2,9 +2,9 @@
 
 ## 1）
 
+~~~
 import java.util.*;
 
-~~~
 public class Main {
 public static void main(String[] args){
 // Your code here!
@@ -13,17 +13,16 @@ public static void main(String[] args){
     }
 }
 
-~~~
-
 アンズ
+~~~
 
 ---
 
 ## 2）
 
+~~~
 import java.util.*;
 
-~~~
 public class Main {
 public static void main(String[] args){
 // Your code here!
@@ -35,16 +34,16 @@ int age;
     }
 }
 
-~~~
 23
+~~~
 
 ---
 
 ## 3）
 
+~~~
 import java.util.*;
 
-~~~
 public class Main {
 public static void main(String[] args){
 // Your code here!
@@ -56,16 +55,17 @@ int age;
     }
 }
 
-~~~
 私の年齢は23です
+
+~~~
 
 ---
 
 ## 4）
 
+~~~
 import java.util.*;
 
-~~~
 public class Main {
 public static void main(String[] args){
 // Your code here!
@@ -77,17 +77,17 @@ int x, y;
     }
 }
 
-~~~
-
 8
+
+~~~
 
 ---
 
 ## 5）
 
-import java.util.*;
-
 ~~~
+
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -101,18 +101,17 @@ int x, y;
     }
 }
 
-~~~
-
 3と5の合計は8です
+
+~~~
 
 ---
 
 
 ## 6）
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -125,18 +124,16 @@ int count;
     }
 }
 
-~~~
-
 0
+~~~
 
 ---
 
 
 ### 6-1)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -150,17 +147,13 @@ System.out.println(count);
     }
     }
 
-~~~
-
 2
-
----
+~~~
 
 ### 6-2)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -176,18 +169,13 @@ System.out.println(count);
     }
     }
 
-~~~
-
 5
-
----
-
+~~~
 
 ### 6-3)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -206,18 +194,16 @@ count = i;}
     }
     }
 
-~~~
-
 6
+~~~
 
 ---
 
 
 ## 7）
+~~~
 
 import java.util.*;
-
-~~~
 
 public class Main {
 public static void main(String[] args){
@@ -230,9 +216,8 @@ int num;
     }
 }
 
-~~~
-
 2
+~~~
 
 ---
 
@@ -241,9 +226,8 @@ int num;
 
 ### 8-1)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -256,19 +240,13 @@ count = i;}
    
     }
     }
-
-~~~
-
 8
-
----
-
+~~~
 
 ### 8-2)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -285,18 +263,13 @@ count = i;}
     }
     }
 
-~~~
-
 5
-
----
-
+~~~
 
 ### 8-3)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -314,10 +287,9 @@ count = i;}
    
     }
     }
-
-~~~
-
+    
 4
+~~~
 
 ---
 
@@ -325,9 +297,8 @@ count = i;}
 
 ## 6）
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -338,18 +309,14 @@ int count = 0;
     }
 }
 
-~~~
-
 0
-
----
+~~~
 
 
 ### 6-1)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -362,18 +329,14 @@ int count = 0;
     }
 }
 
-~~~
-
 2
 
----
-
+~~~
 
 ### 6-2)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -388,18 +351,14 @@ int count = 0;
     }
 }
 
-~~~
-
 5
-
----
-
+~~~
 
 ### 6-3)
 
-import java.util.*;
-
 ~~~
+
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -416,10 +375,9 @@ int count = 0;
     }
 }
 
-~~~
-
 6
 
+~~~
 ---
 
 
@@ -427,9 +385,8 @@ int count = 0;
 
 ### 8-1)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -441,17 +398,13 @@ int count = 10;
         System.out.println(count);
     }
 
-~~~
-
 8
-
----
+~~~
 
 ### 8-2)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -466,18 +419,14 @@ int count = 10;
     }
 }
 
-~~~
-
 5
-
----
+~~~
 
 
 ### 8-3)
 
-import java.util.*;
-
 ~~~
+import java.util.*;
 
 public class Main {
 public static void main(String[] args){
@@ -494,8 +443,5 @@ int count = 10;
     }
 }
 
-~~~
-
 4
-
----
+~~~
