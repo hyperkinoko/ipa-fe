@@ -1,6 +1,6 @@
-#first answer
+# first answer
 
-##1）
+## 1）
 
 import java.util.*;
 
@@ -19,7 +19,7 @@ public static void main(String[] args){
 
 ---
 
-##2）
+## 2）
 
 import java.util.*;
 
@@ -40,7 +40,7 @@ int age;
 
 ---
 
-##3）
+## 3）
 
 import java.util.*;
 
@@ -61,7 +61,7 @@ int age;
 
 ---
 
-##4）
+## 4）
 
 import java.util.*;
 
@@ -83,7 +83,7 @@ int x, y;
 
 ---
 
-##5）
+## 5）
 
 import java.util.*;
 
@@ -108,7 +108,7 @@ int x, y;
 ---
 
 
-##6）
+## 6）
 
 import java.util.*;
 
@@ -132,7 +132,7 @@ int count;
 ---
 
 
-###6-1)
+### 6-1)
 
 import java.util.*;
 
@@ -156,7 +156,7 @@ System.out.println(count);
 
 ---
 
-###6-2)
+### 6-2)
 
 import java.util.*;
 
@@ -183,7 +183,7 @@ System.out.println(count);
 ---
 
 
-###6-3)
+### 6-3)
 
 import java.util.*;
 
@@ -213,7 +213,7 @@ count = i;}
 ---
 
 
-##7）
+## 7）
 
 import java.util.*;
 
@@ -237,9 +237,9 @@ int num;
 ---
 
 
-##8）
+## 8）
 
-###8-1)
+### 8-1)
 
 import java.util.*;
 
@@ -264,7 +264,7 @@ count = i;}
 ---
 
 
-###8-2)
+### 8-2)
 
 import java.util.*;
 
@@ -292,7 +292,7 @@ count = i;}
 ---
 
 
-###8-3)
+### 8-3)
 
 import java.util.*;
 
@@ -321,9 +321,9 @@ count = i;}
 
 ---
 
-#second answer
+# second answer
 
-##6）
+## 6）
 
 import java.util.*;
 
@@ -345,7 +345,7 @@ int count = 0;
 ---
 
 
-###6-1)
+### 6-1)
 
 import java.util.*;
 
@@ -369,7 +369,7 @@ int count = 0;
 ---
 
 
-###6-2)
+### 6-2)
 
 import java.util.*;
 
@@ -395,7 +395,7 @@ int count = 0;
 ---
 
 
-###6-3)
+### 6-3)
 
 import java.util.*;
 
@@ -423,9 +423,9 @@ int count = 0;
 ---
 
 
-##8）
+## 8）
 
-###8-1)
+### 8-1)
 
 import java.util.*;
 
@@ -447,7 +447,7 @@ int count = 10;
 
 ---
 
-###8-2)
+### 8-2)
 
 import java.util.*;
 
@@ -473,7 +473,7 @@ int count = 10;
 ---
 
 
-###8-3)
+### 8-3)
 
 import java.util.*;
 
