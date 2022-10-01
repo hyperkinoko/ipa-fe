@@ -1,2 +1,4 @@
 .idea
-documents.iml
+out
+ipa-fe.iml
+.DS_store
