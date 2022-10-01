@@ -3,11 +3,11 @@
 ### 関数
 
 関数を宣言するときは，Mainクラスの{}の中に，次のように書きます。
-~~~
+```
 static 戻り値の型 関数名(引数の型 引数名, 引数の型 引数名・・・) {
 関数の処理
 }
-~~~
+```
 呼び出すときは，関数名(引数)で呼び出します。
 
 - 戻り値がない場合，戻り値の型の部分にはvoidと書きます。
@@ -15,7 +15,7 @@ static 戻り値の型 関数名(引数の型 引数名, 引数の型 引数名�
 - 前についているstaticは，現時点では，おまじないでOKです。
 
 例：
-~~~
+```
 public class Main {
 public static void main(String[] args){
 // hogeFunctionはString型を返すので，String型の変数で結果（この場合"hello"という文字列）を受け取ることができる
@@ -29,4 +29,4 @@ static String hogeFunction(int a, double b) {
 return "hello"; //文字列を返すので戻り値の型はString
 }
 }
-~~~
+```

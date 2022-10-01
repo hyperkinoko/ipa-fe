@@ -4,14 +4,14 @@
 - consoleへの出力は呼び出し側でします。dice内ではしません。
 
 出力例：
-~~~
+```
 サイコロの目は3です
-~~~
+```
 
 ---
 
 ## 回答
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -28,7 +28,7 @@ return dice;
 }
 
 サイコロの目は1です
-~~~
+```
 ---
 
 ## review
@@ -37,7 +37,7 @@ return dice;
 何も言うことナシです！！
 
 空白のあけ方は特にエラーになるわけではないですが，一般的に以下のような空白のあけ方をします。
-~~~
+```
 public class Main {
 public static void main(String[] args){
 System.out.println("サイコロの目は" + dice() + "です");
@@ -50,7 +50,7 @@ dice++;
 return dice;
 }
 }
-~~~
+```
 
 - 引数のない関数では(と)の間に空白を入れない
 - メソッド名と()の間には空白を入れない

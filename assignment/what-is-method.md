@@ -1,11 +1,11 @@
 ## メソッドについて
 Javaではクラス内にデータ（フィールド）だけでなく処理（メソッド）を宣言することができます。
 メソッドの宣言はクラス宣言内に次のように書きます。
-~~~
+```
 public 返り値の型 メソッド名(引数) {
 処理
 }
-~~~
+```
 
 返り値がないときはvoid，引数がないときは()だけ書きます。  
 今までMain.java内に書いてきたarrayMax関数などは，実はMainクラスのメソッドだったということですね。
@@ -13,7 +13,7 @@ public 返り値の型 メソッド名(引数) {
 例えば，上述のPersonクラスにおいて，自分の名前と年齢を出力するintroduceメソッドは次のようになるでしょう。
 
 Person.java
-~~~
+```
 public class Person {
 String name;
 int age;
@@ -24,10 +24,10 @@ public void introduce() {
 System.out.println("私は" + this.name + "です。" + this.age + "歳です。");
 }
 }
-~~~
+```
 
 Main2.java
-~~~
+```
 public class Main2 {
 public static void main(String[] args) {
 Person person1 = new Person();
@@ -37,11 +37,11 @@ Person person2 = new Person("キノコ", 42);
     person2.introduce();
 }
 }
-~~~
+```
 
 実行例
-~~~
+```
 私は名無しの権兵衛です。10歳です。
 私はキノコです。42歳です。
-~~~
+```
 

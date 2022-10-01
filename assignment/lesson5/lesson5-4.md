@@ -10,7 +10,7 @@
 以下のMainクラス（mainメソッド）を写経して，実行してみましょう。  
 
 Main.java
-~~~
+```
 public class Main {
 public static void main(String[] args) {
 Book book1 = new Book("きっちりJava", "松本きのこ", 1000);
@@ -24,10 +24,10 @@ Book book1 = new Book("きっちりJava", "松本きのこ", 1000);
     book1.printBookInfo();
 }
 }
-~~~
+```
 
 実行例
-~~~
+```
 値引き前：
 --------------------------
 タイトル： きっちりJava
@@ -40,6 +40,6 @@ Book book1 = new Book("きっちりJava", "松本きのこ", 1000);
 著者： 松本きのこ
 価格： 900円
 --------------------------
-~~~
+```
 
 ※ Book.javaと出力結果を提出してください

@@ -1,5 +1,5 @@
 ## 1)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -17,11 +17,11 @@ public static void main(String[] args){
 
 出力:
 100
-~~~
+```
 ---
 
 ## 2)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -42,11 +42,11 @@ int count = 0;
 出力:
 100
 
-~~~
+```
 ---
 
 ## 3)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -69,11 +69,11 @@ int num = 4;
 
 出力:
 偶数です
-~~~
+```
 ---
 
 ## 4)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -99,11 +99,11 @@ Random rand = new Random();
 
 出力:
 5は奇数です
-~~~
+```
 ---
 
 ## 5)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -141,11 +141,11 @@ Random rand = new Random();
 3は奇数です
 2は偶数です
 
-~~~
+```
 ---
 
 ## 6)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -198,11 +198,11 @@ System.out.println( "あなたの目:" + yourDice);
 あなたの目:4
 敵の目:5
 あなたの負け
-~~~
+```
 ---
 
 ## 7)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -343,14 +343,14 @@ Fizz
 Fizz
 Buzz
 
-~~~
+```
 ---
 
 
 # second answer
 
 ## 1)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -465,12 +465,12 @@ public static void main(String[] args){
 98
 99
 100
-~~~
+```
 
 ---
 
 ## 2)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -585,12 +585,12 @@ public static void main(String[] args){
 98
 99
 100
-~~~
+```
 
 ---
 
 ## 4)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -610,11 +610,11 @@ Random rand = new Random();
       }
 
 66は偶数です
-~~~
+```
 
 ---
 ## 5)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -638,12 +638,12 @@ Random rand = new Random();
 
 2は偶数です
 1は奇数です
-~~~
+```
 
 ---
 
 ## 6)
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -677,13 +677,13 @@ Random rand = new Random();
 あなたの目:5
 敵の目:5
 引き分け
-~~~
+```
 ---
 
 ## 7)
 実は一度指示通りに書いて間違えました…
 先頭に「３でも5でも割り切れる」条件を持ってくるのは、そうでないと先に3で割れるという条件で処理されてしまうから、と考えています…
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -810,5 +810,5 @@ Fizz
 98
 Fizz
 Buzz
-~~~
+```
 ---

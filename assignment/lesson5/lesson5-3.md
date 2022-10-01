@@ -16,7 +16,7 @@
 
 
 Main2.java
-~~~
+```
 public class Main2 {
 public static void main(String[] args) {
 Person person1 = new Person();
@@ -26,12 +26,12 @@ Person person2 = new Person("キノコ", 42);
     System.out.println(person2.name + "さんは" + person2.age + "歳です");
 }
 }
-~~~
+```
 
 実行例
-~~~
+```
 名無しの権兵衛さんは10歳です
 キノコさんは42歳です
-~~~
+```
 
 ※ Person.javaと実行例を提出してください。

@@ -2,7 +2,7 @@
 
 ## 1）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -14,13 +14,13 @@ public static void main(String[] args){
 }
 
 アンズ
-~~~
+```
 
 ---
 
 ## 2）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -35,13 +35,13 @@ int age;
 }
 
 23
-~~~
+```
 
 ---
 
 ## 3）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -57,13 +57,13 @@ int age;
 
 私の年齢は23です
 
-~~~
+```
 
 ---
 
 ## 4）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -79,13 +79,13 @@ int x, y;
 
 8
 
-~~~
+```
 
 ---
 
 ## 5）
 
-~~~
+```
 
 import java.util.*;
 
@@ -103,14 +103,14 @@ int x, y;
 
 3と5の合計は8です
 
-~~~
+```
 
 ---
 
 
 ## 6）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -125,14 +125,14 @@ int count;
 }
 
 0
-~~~
+```
 
 ---
 
 
 ### 6-1)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -148,11 +148,11 @@ System.out.println(count);
     }
 
 2
-~~~
+```
 
 ### 6-2)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -170,11 +170,11 @@ System.out.println(count);
     }
 
 5
-~~~
+```
 
 ### 6-3)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -195,13 +195,13 @@ count = i;}
     }
 
 6
-~~~
+```
 
 ---
 
 
 ## 7）
-~~~
+```
 
 import java.util.*;
 
@@ -217,7 +217,7 @@ int num;
 }
 
 2
-~~~
+```
 
 ---
 
@@ -226,7 +226,7 @@ int num;
 
 ### 8-1)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -241,11 +241,11 @@ count = i;}
     }
     }
 8
-~~~
+```
 
 ### 8-2)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -264,11 +264,11 @@ count = i;}
     }
 
 5
-~~~
+```
 
 ### 8-3)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -289,7 +289,7 @@ count = i;}
     }
     
 4
-~~~
+```
 
 ---
 
@@ -297,7 +297,7 @@ count = i;}
 
 ## 6）
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -310,12 +310,12 @@ int count = 0;
 }
 
 0
-~~~
+```
 
 
 ### 6-1)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -331,11 +331,11 @@ int count = 0;
 
 2
 
-~~~
+```
 
 ### 6-2)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -352,11 +352,11 @@ int count = 0;
 }
 
 5
-~~~
+```
 
 ### 6-3)
 
-~~~
+```
 
 import java.util.*;
 
@@ -377,7 +377,7 @@ int count = 0;
 
 6
 
-~~~
+```
 ---
 
 
@@ -385,7 +385,7 @@ int count = 0;
 
 ### 8-1)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -399,11 +399,11 @@ int count = 10;
     }
 
 8
-~~~
+```
 
 ### 8-2)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -420,12 +420,12 @@ int count = 10;
 }
 
 5
-~~~
+```
 
 
 ### 8-3)
 
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -444,4 +444,4 @@ int count = 10;
 }
 
 4
-~~~
+```

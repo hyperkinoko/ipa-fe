@@ -2,34 +2,34 @@
 
 今までint型配列やString型配列を使ってきましたが，自作クラス（BookやPerson）も配列にすることができます。
 Bookクラスの配列は以下のように宣言します。（Main.javaに書きます）
-~~~
+```
 Book[] books = new Book[5];
-~~~
+```
 
 >この書き方はint型やString型でも同じようにできます（今までは{"hoge", "fuga"}みたいなので書いていましたね。これはリテラルという書き方です）
->~~~
+>```
 >int[] scores = new int[5];
 >String[] members = new String[10];
->~~~
+>```
 
 このnewは配列を作るnewであってまだBookインスタンスはnewされていません。
 この時点でbooksはまだ中身の入っていない空の箱が5つ繋がったようなものができただけです。
 （GODIVAみたいなチョコレートの箱を思い浮かべてください。）
 ここへ，Bookインスタンスを入れていきます。
-~~~
+```
 books[0] = new Book("きっちりJava", "松本きのこ", 1000);
 books[1] = new Book("きっちりPython", "はむかず", 1300);
 books[2] = new Book("きっちりRuby", "まつもとゆきひろ", 1800);
 books[3] = new Book("すごいJava", "松本きのこ", 1200);
 books[4] = new Book("やっぱりJava", "松本きのこ", 900);
-~~~
+```
 クラスとコンストラクタが宣言されているおかげで，ひとつひとつの要素（Bookインスタンス）に簡単に別々のデータを入れることができますね。
 また，これは配列ですから，for文などで一気に処理することができます。
 すべての本を100円値引きするようなことも簡単にできます。
 
 
 Main.java
-~~~
+```
 public class Main {
 public static void main(String[] args) {
 Book[] books = new Book[5];
@@ -50,6 +50,6 @@ books[4] = new Book("やっぱりJava", "松本きのこ", 900);
     }
 }
 }
-~~~
+```
 
 写経して実行してみてください。

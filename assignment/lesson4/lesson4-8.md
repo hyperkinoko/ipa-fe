@@ -4,24 +4,24 @@
 3. 呼び出した結果を表示しましょう。
 
 ※ ただし，引数で与えられた配列の長さが0のときは，0を返すようにしてください。
-~~~
+```
 int[] array1 = {87, 96, 72, 88, 79};
 int[] array2 = {58, 91, 98, 96, 83, 65, 70};
 int[] array3 = {};
-~~~
+```
 
 出力例
-~~~
+```
 array1の最大値は96です
 array2の最大値は98です
 array3の最大値は0です
-~~~
+```
 
 ---
 
 ## 回答
 すみません、この中でfor文を拡張for文にするとうまくいかなくなってしまうのですが、その理由を調べてもわからなかったので教えていただけますと幸いです…！
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -56,11 +56,11 @@ int arrayMax = 0;
 array1の最大値は96です
 array2の最大値は98です
 array3の最大値は0です
-~~~
+```
 ---
 
 拡張for文
-~~~
+```
 import java.util.*;
 
 public class Main {
@@ -92,7 +92,7 @@ int arrayMax = 0;
     return arrayMax;
        }
     }
-~~~
+```
 エラー文
 >Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 87 out of bounds for length 5
 at Main.arrayMax(Main.java:23)
@@ -106,15 +106,15 @@ at Main.main(Main.java:10)
 次に，エラー文の解説をします。
 **ArrayIndexOutOfBoundsException**とは，配列のインデックスが配列の要素数の範囲内にないときに投げられる（throwされる）例外（Exception）です。  
 例えば，
-~~~
+```
 int[] array = {87, 96, 72, 88, 79};
-~~~
+```
 のような要素が5つしかない配列のarray[-1]やarray[5]を参照しようとするとこの例外がthrowされます。
-~~~
+```
 java.lang.ArrayIndexOutOfBoundsException: Index 87 out of bounds for length 5
 at Main.arrayMax(Main.java:23)
 at Main.main(Main.java:10)
-~~~
+```
 このエラー出力は，
 >5つしか要素がない（length 5）配列の87番目（Index 87）を参照しようとしていますよ！
 
