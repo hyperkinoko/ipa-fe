@@ -1,15 +1,15 @@
 ## 課題4
 ※ 今までに作ったBookクラスに追記します。
 
-1. 自分自身のタイトルと著者，価格を出力するprintBookInfoメソッドを作ってみましょう。
+1. 自分自身のタイトルと著者，価格を出力する`printBookInfo`メソッドを作ってみましょう。
    a. 戻り値，引数はともにありません。
-2. 引数で値引き額を受け取り，その分だけ価格から値引きするdiscountメソッドを作ってみましょう。
+2. 引数で値引き額を受け取り，その分だけ価格から値引きする`discount`メソッドを作ってみましょう。
    a. 戻り値はありません。
-   b. int型のdiscountValueを引数にとります。
+   b. `int`型の`discountValue`を引数にとります。
 
-以下のMainクラス（mainメソッド）を写経して，実行してみましょう。  
+以下の`Main`クラス（`main`メソッド）を写経して，実行してみましょう。  
 
-Main.java
+`Main.java`
 ```
 public class Main {
 public static void main(String[] args) {
@@ -42,4 +42,4 @@ Book book1 = new Book("きっちりJava", "松本きのこ", 1000);
 --------------------------
 ```
 
-※ Book.javaと出力結果を提出してください
+**※ `Book.java`と出力結果を提出してください**

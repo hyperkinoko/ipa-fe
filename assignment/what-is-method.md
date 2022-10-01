@@ -7,12 +7,12 @@ public 返り値の型 メソッド名(引数) {
 }
 ```
 
-返り値がないときはvoid，引数がないときは()だけ書きます。  
-今までMain.java内に書いてきたarrayMax関数などは，実はMainクラスのメソッドだったということですね。
-クラスのメソッドでは，自分自身（this）のフィールドの値を使って何かすることが多いです。  
-例えば，上述のPersonクラスにおいて，自分の名前と年齢を出力するintroduceメソッドは次のようになるでしょう。
+返り値がないときは`void`，引数がないときは`()`だけ書きます。  
+今まで`Main.java`内に書いてきた`arrayMax`関数などは，実は`Main`クラスのメソッドだったということですね。
+クラスのメソッドでは，自分自身（`this`）のフィールドの値を使って何かすることが多いです。  
+例えば，上述の`Person`クラスにおいて，自分の名前と年齢を出力する`introduce`メソッドは次のようになるでしょう。
 
-Person.java
+`Person.java`
 ```
 public class Person {
 String name;
@@ -26,7 +26,7 @@ System.out.println("私は" + this.name + "です。" + this.age + "歳です。
 }
 ```
 
-Main2.java
+`Main2.java`
 ```
 public class Main2 {
 public static void main(String[] args) {
